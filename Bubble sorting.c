@@ -2,10 +2,10 @@
 
 int main(){
 	int arr[8] = {1,2,10,5,20,3,5};
-	int i,temp,flag;
+	int i,m,temp,flag;
 	do{
 		flag = 0;
-		for(i=0;i<a-1;i++){
+		for(i=0;i<7;i++){
 			if(arr[i]>arr[i+1]){
 				flag = 1;
 				temp = arr[i];
@@ -19,4 +19,5 @@ int main(){
 		printf("%d\t", arr[m]);
 	}
 	return 0;
+
 }
